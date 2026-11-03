@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:g5-climb@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: She Believed She Could Climb\, So She Did
+DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade Girls.
+DTSTART:20270110T200000Z
+DTEND:20270110T220000Z
+LOCATION:Momentum Katy
+END:VEVENT
+END:VCALENDAR

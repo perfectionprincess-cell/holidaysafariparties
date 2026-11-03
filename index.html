@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Frostwood Party Safari · Add to Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#2e2216;--bark:#3b2a1a;--rust:#5b2a1e;--ember:#a0441f;--gold:#c98a2e;--sand:#f8f1e3;--muted:#6b5843;--line:#e2d1b2}
+body{font-family:Poppins,system-ui,sans-serif;color:var(--ink);background:var(--sand);-webkit-font-smoothing:antialiased}
+.top{position:relative}
+.hero{display:block;width:100%;height:230px}
+.ttl{position:absolute;left:0;right:0;top:0;padding:26px 22px;color:#fff7e6;max-width:880px;margin:0 auto}
+.kick{font-size:11px;letter-spacing:.28em;text-transform:uppercase;opacity:.9}
+h1{font-family:Lora,serif;font-weight:700;font-size:clamp(32px,7vw,50px);line-height:1;margin-top:8px;text-shadow:0 2px 12px rgba(60,20,5,.35)}
+h1 em{font-style:italic;font-weight:500;color:#ffe3a0}
+.lede{font-family:Lora,serif;font-style:italic;font-size:15px;margin-top:8px}
+.band{height:9px;background:repeating-linear-gradient(90deg,#3b2a1a 0 14px,#c98a2e 14px 18px,#3b2a1a 18px 22px,#e7b65a 22px 36px,#3b2a1a 36px 40px,#8a4a22 40px 50px)}
+main{max-width:880px;margin:0 auto;padding:18px 18px 40px}
+.panel{background:#fffaf0;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:6px}
+.panel h3{font-family:Lora,serif;font-size:17px;color:var(--rust);margin-bottom:4px}
+.panel p{font-size:13px;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 4px}
+.f{border:1.5px solid var(--line);background:#fff;color:var(--ink);font:500 13px Poppins,sans-serif;padding:7px 13px;border-radius:999px;cursor:pointer}
+.f:hover{border-color:var(--gold)}
+.f.on{background:var(--bark);border-color:var(--bark);color:#f6d79a}
+.addall{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font:600 12.5px Poppins,sans-serif;border-radius:9px;padding:8px 12px;border:1.5px solid transparent;cursor:pointer;white-space:nowrap}
+.btn.primary{background:var(--ember);color:#fff}
+.btn.primary:hover{background:#87361a}
+.btn.ghost{background:#fff;border-color:var(--line);color:var(--ink)}
+.btn.ghost:hover{border-color:var(--gold);background:#fff6e4}
+.btn svg{width:14px;height:14px;flex:none}
+.small{font-size:12px;color:var(--muted)}
+section{margin-top:22px}
+.sec{display:flex;align-items:baseline;gap:10px;border-bottom:1.5px solid var(--gold);padding-bottom:5px;margin-bottom:4px}
+.sec h2{font-family:Lora,serif;font-size:23px;color:var(--rust)}
+.sec .sub{font-family:Lora,serif;font-style:italic;color:#a0602c;font-size:14px}
+.sec .n{margin-left:auto;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8b7558}
+.ev{display:grid;grid-template-columns:54px 1fr;gap:4px 14px;padding:13px 2px;border-bottom:1px dashed var(--line)}
+.date{grid-row:span 2;align-self:start;text-align:center;background:var(--bark);color:#f6d79a;border-radius:8px;padding:6px 0 5px;line-height:1}
+.date .dow{font-size:9.5px;letter-spacing:.15em;text-transform:uppercase}
+.date .day{display:block;font-family:Lora,serif;font-size:23px;font-weight:700;color:#fff3d6;margin-top:3px}
+.date.tba{background:#e9dcc2;color:#8a6a3e;font-size:10px;letter-spacing:.15em;padding:14px 0}
+.head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.title{font-family:Lora,serif;font-weight:600;font-size:17px;line-height:1.25}
+.meta{font-size:13px;color:var(--muted);margin-top:3px}
+.meta .time{color:var(--ember);font-weight:600}
+.meta .sep{color:var(--gold);margin:0 6px;font-size:9px;vertical-align:1px}
+.chip{flex:none;font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.chip.kid{background:#f4d9c4;color:#8a3a17}.chip.adult{background:#dfe0c4;color:#4a4f1e}.chip.family{background:#f7e2a6;color:#7a5410}
+.adds{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.soon{font-size:12.5px;font-style:italic;color:#8b7558;font-family:Lora,serif}
+.empty{padding:30px 0;text-align:center;color:var(--muted);font-family:Lora,serif;font-style:italic}
+footer{margin-top:28px;text-align:center;font-family:Lora,serif;font-style:italic;font-size:13px;color:#8b7558}
+footer b{font:600 11px Poppins,sans-serif;letter-spacing:.2em;color:var(--rust);text-transform:uppercase}
+@media (max-width:560px){.sec .sub{display:none}.sec h2{font-size:21px}.kick{font-size:10px;letter-spacing:.2em}.hero{height:200px}.head{flex-direction:column;gap:6px}.title{font-size:16px}}
+</style></head>
+<body>
+<div class="top"><svg class="hero" aria-hidden="true" viewBox="0 0 800 230" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#5b2a1e"/><stop offset=".45" stop-color="#c4582b"/><stop offset=".8" stop-color="#ec9a3c"/><stop offset="1" stop-color="#f6c66a"/></linearGradient>
+<radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff1c4"/><stop offset=".6" stop-color="#ffd27a"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient></defs>
+<rect width="800" height="230" fill="url(#sky)"/>
+<circle cx="560" cy="178" r="110" fill="url(#sun)" opacity=".55"/>
+<circle cx="560" cy="178" r="54" fill="#ffe3a0"/>
+<path d="M0 190 Q120 168 260 182 T520 176 T800 184 V230 H0Z" fill="#7a3a1d" opacity=".55"/>
+<path d="M0 204 Q160 190 330 200 T640 196 T800 202 V230 H0Z" fill="#3b2a1a"/>
+<g transform="translate(110,206) scale(1.25)" fill="#3b2a1a">
+<path d="M-3 0 L-2 -38 Q-14 -50 -30 -54 L-28 -56 Q-12 -53 -1 -44 L0 -58 Q6 -50 14 -54 L15 -52 Q6 -48 2 -40 L3 0 Z"/>
+<ellipse cx="-6" cy="-62" rx="46" ry="8"/><ellipse cx="18" cy="-58" rx="26" ry="6"/><ellipse cx="-30" cy="-58" rx="22" ry="5"/></g><g transform="translate(690,204) scale(0.95)" fill="#3b2a1a">
+<path d="M-3 0 L-2 -38 Q-14 -50 -30 -54 L-28 -56 Q-12 -53 -1 -44 L0 -58 Q6 -50 14 -54 L15 -52 Q6 -48 2 -40 L3 0 Z"/>
+<ellipse cx="-6" cy="-62" rx="46" ry="8"/><ellipse cx="18" cy="-58" rx="26" ry="6"/><ellipse cx="-30" cy="-58" rx="22" ry="5"/></g><g transform="translate(420,202) scale(0.55)" fill="#3b2a1a">
+<path d="M-3 0 L-2 -38 Q-14 -50 -30 -54 L-28 -56 Q-12 -53 -1 -44 L0 -58 Q6 -50 14 -54 L15 -52 Q6 -48 2 -40 L3 0 Z"/>
+<ellipse cx="-6" cy="-62" rx="46" ry="8"/><ellipse cx="18" cy="-58" rx="26" ry="6"/><ellipse cx="-30" cy="-58" rx="22" ry="5"/></g>
+<g fill="none" stroke="#3b2a1a" stroke-width="2" stroke-linecap="round">
+<path d="M650 62 q6 -6 12 0 q6 -6 12 0"/><path d="M682 80 q4 -4 8 0 q4 -4 8 0"/><path d="M632 88 q5 -5 10 0 q5 -5 10 0"/></g>
+<g fill="#3b2a1a"><path d="M0 230 V214 l6 -12 l3 12 l5 -16 l3 16 l6 -10 l2 10 l7 -14 l2 14 h766 V230Z"/></g>
+</svg><div class="ttl"><div class="kick">Frostwood Elementary PTA · Holiday Auction</div>
+<h1>The Party <em>Safari</em></h1><div class="lede">Add your parties to your calendar</div></div></div>
+<div class="band"></div>
+<main>
+  <div class="panel">
+    <h3>Pick your grade, then add what you bought</h3>
+    <p>Tap a calendar button on any party, or add everything for your grade at once.</p>
+    <div class="filters" id="filters"></div>
+    <div class="addall"><a class="btn primary" id="allLink" href="frostwood-all-parties.ics">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>
+      <span id="allLabel">Add all parties</span></a>
+      <a class="btn ghost" id="subLink" href="#">Subscribe (updates automatically)</a></div>
+    <p class="small" style="margin-top:8px">“Add all” opens a calendar file for iPhone, Mac &amp; Outlook. “Subscribe” keeps your calendar current if dates or times change.</p>
+      </div>
+  <div id="list"></div>
+  <footer><b>Frostwood Roars</b> · Parties with “Time TBA” are added as all-day events — check your invitation for times.</footer>
+</main>
+<script>
+const EVENTS = [{"id": "homes-tour", "title": "Holiday Homes Tour & Progressive Dinner", "aud": "Adults", "tags": ["adults"], "place": "", "note": "", "dow": "Wed", "day": 2, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · Adults. Time to be announced.", "ics": "homes-tour.ics", "g": "20261202/20261203", "o": {"s": "2026-12-02", "e": "2026-12-03", "allday": true}, "time": "Time TBA (added as all-day)"}, {"id": "g5-kickball", "title": "Mothers vs. Sons Kickball Game", "aud": "5th Grade", "tags": ["g5"], "place": "", "note": "", "dow": "Wed", "day": 2, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 5th Grade. Time to be announced.", "ics": "g5-kickball.ics", "g": "20261202/20261203", "o": {"s": "2026-12-02", "e": "2026-12-03", "allday": true}, "time": "Time TBA (added as all-day)"}, {"id": "home-alone", "title": "Home Alone: Movie Night Under the Stars", "aud": "All Families", "tags": ["family"], "place": "Frostwood Elementary fields", "note": "", "dow": "Fri", "day": 4, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · All Families.", "ics": "home-alone.ics", "g": "20261204T230000Z/20261205T013000Z", "o": {"s": "2026-12-04T17:00:00-06:00", "e": "2026-12-04T19:30:00-06:00", "allday": false}, "time": "5:00 PM – 7:30 PM"}, {"id": "k-camo", "title": "Camo & Critters: A Wild Holiday Adventure", "aud": "Kinder Boys", "tags": ["k"], "place": "", "note": "", "dow": "Sat", "day": 5, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · Kinder Boys.", "ics": "k-camo.ics", "g": "20261205T210000Z/20261205T230000Z", "o": {"s": "2026-12-05T15:00:00-06:00", "e": "2026-12-05T17:00:00-06:00", "allday": false}, "time": "3:00 PM – 5:00 PM"}, {"id": "g1-snowball", "title": "Snowball Smash Winter Bash", "aud": "1st Grade Boys", "tags": ["g1"], "place": "Sandalwood Park", "note": "", "dow": "Sun", "day": 6, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 1st Grade Boys.", "ics": "g1-snowball.ics", "g": "20261206T200000Z/20261206T213000Z", "o": {"s": "2026-12-06T14:00:00-06:00", "e": "2026-12-06T15:30:00-06:00", "allday": false}, "time": "2:00 PM – 3:30 PM"}, {"id": "g3-reindeer", "title": "Reindeer Game (Moms vs. Sons Kickball)", "aud": "3rd Grade Boys", "tags": ["g3"], "place": "Frostwood Fields", "note": "", "dow": "Thu", "day": 10, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 3rd Grade Boys.", "ics": "g3-reindeer.ics", "g": "20261210T220000Z/20261210T233000Z", "o": {"s": "2026-12-10T16:00:00-06:00", "e": "2026-12-10T17:30:00-06:00", "allday": false}, "time": "4:00 PM – 5:30 PM"}, {"id": "prek-pj", "title": "Holiday Pajama & Craft Party", "aud": "PreK", "tags": ["prek"], "place": "", "note": "", "dow": "Fri", "day": 11, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · PreK. Time to be announced.", "ics": "prek-pj.ics", "g": "20261211/20261212", "o": {"s": "2026-12-11", "e": "2026-12-12", "allday": true}, "time": "Time TBA (added as all-day)"}, {"id": "g1-girlmas", "title": "A Very Merry Girlmas", "aud": "1st Grade Girls", "tags": ["g1"], "place": "", "note": "", "dow": "Fri", "day": 11, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 1st Grade Girls.", "ics": "g1-girlmas.ics", "g": "20261211T223000Z/20261212T000000Z", "o": {"s": "2026-12-11T16:30:00-06:00", "e": "2026-12-11T18:00:00-06:00", "allday": false}, "time": "4:30 PM – 6:00 PM"}, {"id": "g3-cinema", "title": "Holiday Cinema Party", "aud": "3rd Grade Girls", "tags": ["g3"], "place": "", "note": "Start time 4:30 PM; end time not listed.", "dow": "Fri", "day": 11, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 3rd Grade Girls. Start time 4:30 PM; end time not listed.", "ics": "g3-cinema.ics", "g": "20261211T223000Z/20261212T003000Z", "o": {"s": "2026-12-11T16:30:00-06:00", "e": "2026-12-11T18:30:00-06:00", "allday": false}, "time": "4:30 PM"}, {"id": "g2-caroling", "title": "Cocoa & Caroling", "aud": "2nd Grade Girls", "tags": ["g2"], "place": "Spotlight Karaoke", "note": "", "dow": "Sun", "day": 13, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 2nd Grade Girls.", "ics": "g2-caroling.ics", "g": "20261213T180000Z/20261213T200000Z", "o": {"s": "2026-12-13T12:00:00-06:00", "e": "2026-12-13T14:00:00-06:00", "allday": false}, "time": "12:00 PM – 2:00 PM"}, {"id": "k-madpotter", "title": "Merry & Bright at The Mad Potter", "aud": "Kinder Girls", "tags": ["k"], "place": "The Mad Potter", "note": "", "dow": "Sun", "day": 13, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · Kinder Girls.", "ics": "k-madpotter.ics", "g": "20261213T210000Z/20261213T223000Z", "o": {"s": "2026-12-13T15:00:00-06:00", "e": "2026-12-13T16:30:00-06:00", "allday": false}, "time": "3:00 PM – 4:30 PM"}, {"id": "bingo", "title": "Holiday Family Bingo", "aud": "All Families", "tags": ["family"], "place": "", "note": "", "dow": "Sun", "day": 13, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · All Families. Time to be announced.", "ics": "bingo.ics", "g": "20261213/20261214", "o": {"s": "2026-12-13", "e": "2026-12-14", "allday": true}, "time": "Time TBA (added as all-day)"}, {"id": "g2-slickcity", "title": "Sliding into the Holidays", "aud": "2nd Grade Boys", "tags": ["g2"], "place": "Pickup at Frostwood Elementary, then Slick City", "note": "Two permission slips to be signed with the official invitation.", "dow": "Fri", "day": 18, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 2nd Grade Boys. Two permission slips to be signed with the official invitation.", "ics": "g2-slickcity.ics", "g": "20261218T175500Z/20261218T210000Z", "o": {"s": "2026-12-18T11:55:00-06:00", "e": "2026-12-18T15:00:00-06:00", "allday": false}, "time": "11:55 AM – 3:00 PM"}, {"id": "g4-plunge", "title": "Polar Plunge", "aud": "4th Grade Co-Ed", "tags": ["g4"], "place": "", "note": "Bring a swimsuit.", "dow": "Fri", "day": 18, "month": "December 2026", "desc": "Frostwood PTA Holiday Auction party · 4th Grade Co-Ed. Bring a swimsuit.", "ics": "g4-plunge.ics", "g": "20261218T193000Z/20261218T210000Z", "o": {"s": "2026-12-18T13:30:00-06:00", "e": "2026-12-18T15:00:00-06:00", "allday": false}, "time": "1:30 PM – 3:00 PM"}, {"id": "g2-momsgame", "title": "Class of 2030 Mom's Game Night", "aud": "2nd Grade Moms", "tags": ["adults", "g2"], "place": "", "note": "", "dow": "Thu", "day": 7, "month": "January 2027", "desc": "Frostwood PTA Holiday Auction party · 2nd Grade Moms. Time to be announced.", "ics": "g2-momsgame.ics", "g": "20270107/20270108", "o": {"s": "2027-01-07", "e": "2027-01-08", "allday": true}, "time": "Time TBA (added as all-day)"}, {"id": "g5-climb", "title": "She Believed She Could Climb, So She Did", "aud": "5th Grade Girls", "tags": ["g5"], "place": "Momentum Katy", "note": "", "dow": "Sun", "day": 10, "month": "January 2027", "desc": "Frostwood PTA Holiday Auction party · 5th Grade Girls.", "ics": "g5-climb.ics", "g": "20270110T200000Z/20270110T220000Z", "o": {"s": "2027-01-10T14:00:00-06:00", "e": "2027-01-10T16:00:00-06:00", "allday": false}, "time": "2:00 PM – 4:00 PM"}, {"id": "mahjong", "title": "Mahjong Night at The Birdie", "aud": "Adults · tables of 4", "tags": ["adults"], "place": "The Birdie", "note": "", "dow": "Thu", "day": 14, "month": "January 2027", "desc": "Frostwood PTA Holiday Auction party · Adults · tables of 4.", "ics": "mahjong.ics", "g": "20270115T000000Z/20270115T030000Z", "o": {"s": "2027-01-14T18:00:00-06:00", "e": "2027-01-14T21:00:00-06:00", "allday": false}, "time": "6:00 PM – 9:00 PM"}, {"id": "lunar", "title": "Fortune & Festivities: A Lunar New Year Celebration", "aud": "Adults", "tags": ["adults"], "place": "", "note": "", "dow": "Fri", "day": 29, "month": "January 2027", "desc": "Frostwood PTA Holiday Auction party · Adults. Time to be announced.", "ics": "lunar.ics", "g": "20270129/20270130", "o": {"s": "2027-01-29", "e": "2027-01-30", "allday": true}, "time": "Time TBA (added as all-day)"}, {"id": "hemline", "title": "Hemline Private Shopping Party", "aud": "Adults", "tags": ["adults"], "place": "Hemline", "note": "December 2026 — exact date to come", "month": "Dates to Come"}, {"id": "pause", "title": "Mom's Night to PAUSE", "aud": "Adults", "tags": ["adults"], "place": "PAUSE Tanglewood Studio", "note": "Date to come", "month": "Dates to Come"}, {"id": "cgreene", "title": "Christina Greene Private Shopping Party", "aud": "Adults", "tags": ["adults"], "place": "Christina Greene", "note": "Date to come", "month": "Dates to Come"}];
+const FILTERS = [["all","All","all"],["prek","PreK","PreK"],["k","Kinder","Kinder"],["g1","1st","1st Grade"],["g2","2nd","2nd Grade"],["g3","3rd","3rd Grade"],["g4","4th","4th Grade"],["g5","5th","5th Grade"],["adults","Adults","adult"],["family","Families","family"]];
+const SUBS = {"December 2026":"The Holiday Migration","January 2027":"New Year on the Savanna","Dates to Come":"Still Tracking These"};
+const ICON = {
+  g:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
+  a:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8C7 7.3 5.6 8.2 4.8 9.6c-1.6 2.8-.4 6.9 1.2 9.1.8 1.1 1.7 2.3 2.8 2.3s1.6-.7 3-.7 1.8.7 3 .7 2-1.1 2.8-2.2c.9-1.3 1.2-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.6zM14.1 5.6c.6-.8 1.1-1.8 1-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>',
+  o:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 7l9 6 9-6"/></svg>'
+};
+let cur = "all";
+try { const s = localStorage.getItem("fw-filter"); if (s && FILTERS.some(f=>f[0]===s)) cur = s; } catch(e) {}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const kind = e => e.tags.includes("family") ? "family" : (e.tags.includes("adults") ? "adult" : "kid");
+function gUrl(e){
+  const p = new URLSearchParams({action:"TEMPLATE",text:"Frostwood: "+e.title,dates:e.g,details:e.desc,ctz:"America/Chicago"});
+  if (e.place) p.set("location", e.place);
+  return "https://calendar.google.com/calendar/render?" + p.toString();
+}
+function oUrl(e){
+  const p = new URLSearchParams({path:"/calendar/action/compose",rru:"addevent",subject:"Frostwood: "+e.title,startdt:e.o.s,enddt:e.o.e,body:e.desc});
+  if (e.o.allday) p.set("allday","true");
+  if (e.place) p.set("location", e.place);
+  return "https://outlook.live.com/calendar/0/deeplink/compose?" + p.toString();
+}
+function render(){
+  document.getElementById("filters").innerHTML = FILTERS.map(([k,l,_]) =>
+    `<button class="f${k===cur?" on":""}" data-k="${k}" aria-pressed="${k===cur}">${l}</button>`).join("");
+  const shown = EVENTS.filter(e => cur==="all" || e.tags.includes(cur));
+  const label = FILTERS.find(f=>f[0]===cur)[2];
+  const dated = shown.filter(e=>e.ics).length;
+  const file = cur==="all" ? "frostwood-all-parties.ics" : `frostwood-${cur}.ics`;
+  const all = document.getElementById("allLink");
+  all.href = file;
+  document.getElementById("allLabel").textContent = cur==="all" ? `Add all ${dated} parties` : (dated>1 ? `Add all ${dated} ${label} parties` : `Add the ${label} party`);
+  all.style.display = dated ? "" : "none";
+  const sub = document.getElementById("subLink");
+  sub.href = "webcal://" + location.host + location.pathname.replace(/[^/]*$/, "") + file;
+  sub.style.display = (dated && location.protocol.startsWith("http")) ? "" : "none";
+  let html = "";
+  for (const m of ["December 2026","January 2027","Dates to Come"]) {
+    const evs = shown.filter(e=>e.month===m);
+    if (!evs.length) continue;
+    html += `<section><div class="sec"><h2>${m}</h2><span class="sub">${SUBS[m]}</span><span class="n">${evs.length} event${evs.length>1?"s":""}</span></div>`;
+    for (const e of evs) {
+      const date = e.day ? `<div class="date"><span class="dow">${e.dow}</span><span class="day">${e.day}</span></div>` : `<div class="date tba">TBA</div>`;
+      const meta = e.day ? [`<span class="time">${esc(e.time)}</span>`] : [`<span class="time">${esc(e.note)}</span>`];
+      if (e.place) meta.push(esc(e.place));
+      const adds = e.day ? `<div class="adds">
+          <a class="btn ghost" href="${esc(gUrl(e))}" target="_blank" rel="noopener">${ICON.g}Google</a>
+          <a class="btn ghost" href="${esc(e.ics)}">${ICON.a}Apple / iPhone</a>
+          <a class="btn ghost" href="${esc(oUrl(e))}" target="_blank" rel="noopener">${ICON.o}Outlook</a></div>`
+        : `<div class="soon">Calendar buttons will appear once the date is set.</div>`;
+      html += `<div class="ev">${date}<div class="head"><div><div class="title">${esc(e.title)}</div>
+        <div class="meta">${meta.join('<span class="sep">◆</span>')}</div></div><span class="chip ${kind(e)}">${esc(e.aud)}</span></div>${adds}</div>`;
+    }
+    html += `</section>`;
+  }
+  document.getElementById("list").innerHTML = html || `<div class="empty">No parties for this group yet.</div>`;
+}
+document.getElementById("filters").addEventListener("click", ev => {
+  const b = ev.target.closest(".f"); if (!b) return;
+  cur = b.dataset.k; try { localStorage.setItem("fw-filter", cur); } catch(e) {}
+  render();
+});
+render();
+</script>
+</body></html>

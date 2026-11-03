@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:k-camo@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Camo & Critters: A Wild Holiday Adventure
+DESCRIPTION:Frostwood PTA Holiday Auction party · Kinder Boys.
+DTSTART:20261205T210000Z
+DTEND:20261205T230000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:k-madpotter@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Merry & Bright at The Mad Potter
+DESCRIPTION:Frostwood PTA Holiday Auction party · Kinder Girls.
+DTSTART:20261213T210000Z
+DTEND:20261213T223000Z
+LOCATION:The Mad Potter
+END:VEVENT
+END:VCALENDAR

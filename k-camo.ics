@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:k-camo@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Camo & Critters: A Wild Holiday Adventure
+DESCRIPTION:Frostwood PTA Holiday Auction party · Kinder Boys.
+DTSTART:20261205T210000Z
+DTEND:20261205T230000Z
+END:VEVENT
+END:VCALENDAR

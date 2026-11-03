@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:g2-slickcity@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Sliding into the Holidays
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Boys. Two permission slips to be signed with the official invitation.
+DTSTART:20261218T175500Z
+DTEND:20261218T210000Z
+LOCATION:Pickup at Frostwood Elementary\, then Slick City
+END:VEVENT
+END:VCALENDAR

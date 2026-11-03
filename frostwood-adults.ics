@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:homes-tour@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Homes Tour & Progressive Dinner
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+END:VEVENT
+BEGIN:VEVENT
+UID:g2-momsgame@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Class of 2030 Mom's Game Night
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Moms. Time to be announced.
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Mahjong Night at The Birdie
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults · tables of 4.
+DTSTART:20270115T000000Z
+DTEND:20270115T030000Z
+LOCATION:The Birdie
+END:VEVENT
+BEGIN:VEVENT
+UID:lunar@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Fortune & Festivities: A Lunar New Year Celebration
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+END:VEVENT
+END:VCALENDAR

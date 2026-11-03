@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:g1-snowball@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Snowball Smash Winter Bash
+DESCRIPTION:Frostwood PTA Holiday Auction party · 1st Grade Boys.
+DTSTART:20261206T200000Z
+DTEND:20261206T213000Z
+LOCATION:Sandalwood Park
+END:VEVENT
+BEGIN:VEVENT
+UID:g1-girlmas@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: A Very Merry Girlmas
+DESCRIPTION:Frostwood PTA Holiday Auction party · 1st Grade Girls.
+DTSTART:20261211T223000Z
+DTEND:20261212T000000Z
+END:VEVENT
+END:VCALENDAR

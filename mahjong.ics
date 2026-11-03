@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:mahjong@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Mahjong Night at The Birdie
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults · tables of 4.
+DTSTART:20270115T000000Z
+DTEND:20270115T030000Z
+LOCATION:The Birdie
+END:VEVENT
+END:VCALENDAR

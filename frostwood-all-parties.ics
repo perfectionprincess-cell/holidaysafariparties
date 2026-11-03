@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:homes-tour@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Homes Tour & Progressive Dinner
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+END:VEVENT
+BEGIN:VEVENT
+UID:g5-kickball@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Mothers vs. Sons Kickball Game
+DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade. Time to be announced.
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+END:VEVENT
+BEGIN:VEVENT
+UID:home-alone@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Home Alone: Movie Night Under the Stars
+DESCRIPTION:Frostwood PTA Holiday Auction party · All Families.
+DTSTART:20261204T230000Z
+DTEND:20261205T013000Z
+LOCATION:Frostwood Elementary fields
+END:VEVENT
+BEGIN:VEVENT
+UID:k-camo@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Camo & Critters: A Wild Holiday Adventure
+DESCRIPTION:Frostwood PTA Holiday Auction party · Kinder Boys.
+DTSTART:20261205T210000Z
+DTEND:20261205T230000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:g1-snowball@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Snowball Smash Winter Bash
+DESCRIPTION:Frostwood PTA Holiday Auction party · 1st Grade Boys.
+DTSTART:20261206T200000Z
+DTEND:20261206T213000Z
+LOCATION:Sandalwood Park
+END:VEVENT
+BEGIN:VEVENT
+UID:g3-reindeer@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Reindeer Game (Moms vs. Sons Kickball)
+DESCRIPTION:Frostwood PTA Holiday Auction party · 3rd Grade Boys.
+DTSTART:20261210T220000Z
+DTEND:20261210T233000Z
+LOCATION:Frostwood Fields
+END:VEVENT
+BEGIN:VEVENT
+UID:prek-pj@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Pajama & Craft Party
+DESCRIPTION:Frostwood PTA Holiday Auction party · PreK. Time to be announced.
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+END:VEVENT
+BEGIN:VEVENT
+UID:g1-girlmas@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: A Very Merry Girlmas
+DESCRIPTION:Frostwood PTA Holiday Auction party · 1st Grade Girls.
+DTSTART:20261211T223000Z
+DTEND:20261212T000000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:g3-cinema@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Cinema Party
+DESCRIPTION:Frostwood PTA Holiday Auction party · 3rd Grade Girls. Start time 4:30 PM\; end time not listed.
+DTSTART:20261211T223000Z
+DTEND:20261212T003000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:g2-caroling@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Cocoa & Caroling
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Girls.
+DTSTART:20261213T180000Z
+DTEND:20261213T200000Z
+LOCATION:Spotlight Karaoke
+END:VEVENT
+BEGIN:VEVENT
+UID:k-madpotter@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Merry & Bright at The Mad Potter
+DESCRIPTION:Frostwood PTA Holiday Auction party · Kinder Girls.
+DTSTART:20261213T210000Z
+DTEND:20261213T223000Z
+LOCATION:The Mad Potter
+END:VEVENT
+BEGIN:VEVENT
+UID:bingo@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Family Bingo
+DESCRIPTION:Frostwood PTA Holiday Auction party · All Families. Time to be announced.
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+END:VEVENT
+BEGIN:VEVENT
+UID:g2-slickcity@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Sliding into the Holidays
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Boys. Two permission slips to be signed with the official invitation.
+DTSTART:20261218T175500Z
+DTEND:20261218T210000Z
+LOCATION:Pickup at Frostwood Elementary\, then Slick City
+END:VEVENT
+BEGIN:VEVENT
+UID:g4-plunge@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Polar Plunge
+DESCRIPTION:Frostwood PTA Holiday Auction party · 4th Grade Co-Ed. Bring a swimsuit.
+DTSTART:20261218T193000Z
+DTEND:20261218T210000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:g2-momsgame@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Class of 2030 Mom's Game Night
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Moms. Time to be announced.
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+END:VEVENT
+BEGIN:VEVENT
+UID:g5-climb@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: She Believed She Could Climb\, So She Did
+DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade Girls.
+DTSTART:20270110T200000Z
+DTEND:20270110T220000Z
+LOCATION:Momentum Katy
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Mahjong Night at The Birdie
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults · tables of 4.
+DTSTART:20270115T000000Z
+DTEND:20270115T030000Z
+LOCATION:The Birdie
+END:VEVENT
+BEGIN:VEVENT
+UID:lunar@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Fortune & Festivities: A Lunar New Year Celebration
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+END:VEVENT
+END:VCALENDAR

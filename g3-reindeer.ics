@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:g3-reindeer@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Reindeer Game (Moms vs. Sons Kickball)
+DESCRIPTION:Frostwood PTA Holiday Auction party · 3rd Grade Boys.
+DTSTART:20261210T220000Z
+DTEND:20261210T233000Z
+LOCATION:Frostwood Fields
+END:VEVENT
+END:VCALENDAR

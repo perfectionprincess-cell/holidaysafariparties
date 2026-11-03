@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:lunar@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Fortune & Festivities: A Lunar New Year Celebration
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+END:VEVENT
+END:VCALENDAR
