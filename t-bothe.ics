@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-bothe@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Lunch with Mrs. Bothe
+DESCRIPTION:Frostwood PTA Holiday Auction party · PreK–5th · Teachers. With Mrs. Bothe. During the student's lunch time\; build a holiday catapult\, Chick-fil-A\, bring a friend. Time to be announced.
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+LOCATION:MPR
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-principal@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Lunch with the Principals
+DESCRIPTION:Frostwood PTA Holiday Auction party · K–5th · Boys & Girls. With Principal Hiler\, AP Johnston & AP Scott. Chick-fil-A\; winner brings a classmate. Time to be announced.
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+END:VEVENT
+END:VCALENDAR

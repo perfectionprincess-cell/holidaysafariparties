@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-grinch@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Join Us for a Grinchy Good Time!
+DESCRIPTION:Frostwood PTA Holiday Auction party · All Grades · Teachers. With Mrs. Justl\, Mrs. Baxter\, Ms. Flores\, Mrs. Torres\, Ms. Herrington & Mrs. Walker. Winner + a friend.
+DTSTART:20261215T211500Z
+DTEND:20261215T220000Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-g4-breakfast@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Book Breakfast with Your Teacher
+DESCRIPTION:Frostwood PTA Holiday Auction party · 4th Grade · Teachers. With Cullip\, Cupples\, Flamenco\, Herzog\, Miller & Oria. End time not listed. Read-aloud\, breakfast & a new book.
+DTSTART:20261215T131500Z
+DTEND:20261215T141500Z
+END:VEVENT
+END:VCALENDAR

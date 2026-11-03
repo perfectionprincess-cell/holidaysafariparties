@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-beyou-35@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Be You! with Mrs. Perkins
+DESCRIPTION:Frostwood PTA Holiday Auction party · 3rd–5th · Teachers. With Mrs. Perkins. Glitter jars & a read-aloud of Be You!
+DTSTART:20261211T131500Z
+DTEND:20261211T134500Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-cookies@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Cookie Decorating with Mrs. Abby
+DESCRIPTION:Frostwood PTA Holiday Auction party · K–5th · Teachers. With Mrs. Abby\, Mrs. Ladyga & Mrs. Martinez. Winner brings one classmate.
+DTSTART:20261207T210000Z
+DTEND:20261207T221500Z
+END:VEVENT
+END:VCALENDAR

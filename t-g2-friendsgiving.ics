@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-g2-friendsgiving@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Friendsgiving with Your Teacher
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade · Teachers. With Duvall\, Eggleston\, Kim\, Ruez\, Stallworth & Wolf. After school: snacks\, activities & A Charlie Brown Thanksgiving.
+DTSTART:20261118T210000Z
+DTEND:20261118T221500Z
+END:VEVENT
+END:VCALENDAR

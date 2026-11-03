@@ -12,4 +12,46 @@ DESCRIPTION:Frostwood PTA Holiday Auction party · PreK. Time to be announced.
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 END:VEVENT
+BEGIN:VEVENT
+UID:t-prek-reindeer@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Reindeer Training Camp
+DESCRIPTION:Frostwood PTA Holiday Auction party · PreK · Teachers. With Mrs. VanderHorst & Mrs. Rubio.
+DTSTART:20261201T211500Z
+DTEND:20261201T221500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:t-daisy@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Daisy & Donuts with the Specialists
+DESCRIPTION:Frostwood PTA Holiday Auction party · All Grades · Teachers. With The Specialists team. End time not listed.
+DTSTART:20261202T130000Z
+DTEND:20261202T140000Z
+LOCATION:Room 132
+END:VEVENT
+BEGIN:VEVENT
+UID:t-bothe@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Lunch with Mrs. Bothe
+DESCRIPTION:Frostwood PTA Holiday Auction party · PreK–5th · Teachers. With Mrs. Bothe. During the student's lunch time\; build a holiday catapult\, Chick-fil-A\, bring a friend. Time to be announced.
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+LOCATION:MPR
+END:VEVENT
+BEGIN:VEVENT
+UID:t-grinch@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Join Us for a Grinchy Good Time!
+DESCRIPTION:Frostwood PTA Holiday Auction party · All Grades · Teachers. With Mrs. Justl\, Mrs. Baxter\, Ms. Flores\, Mrs. Torres\, Ms. Herrington & Mrs. Walker. Winner + a friend.
+DTSTART:20261215T211500Z
+DTEND:20261215T220000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:t-beyou-pk@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Be You! with Mrs. Perkins
+DESCRIPTION:Frostwood PTA Holiday Auction party · PreK & Kinder · Teachers. With Mrs. Perkins. Glitter jars & a read-aloud of Be You!
+DTSTART:20261216T131500Z
+DTEND:20261216T134500Z
+END:VEVENT
 END:VCALENDAR

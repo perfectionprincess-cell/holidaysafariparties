@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-ornament@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Ornament Magic with Ms. Lay
+DESCRIPTION:Frostwood PTA Holiday Auction party · K–5th · Teachers. With Ms. Lay.
+DTSTART:20261208T211500Z
+DTEND:20261208T221500Z
+END:VEVENT
+END:VCALENDAR

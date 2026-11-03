@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-k-lunch@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Lunch with Your Teacher
+DESCRIPTION:Frostwood PTA Holiday Auction party · Kinder · Teachers. With Ducoing\, Lange\, Muras\, Ratliff & Wray. Time to be announced.
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-prek-reindeer@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Reindeer Training Camp
+DESCRIPTION:Frostwood PTA Holiday Auction party · PreK · Teachers. With Mrs. VanderHorst & Mrs. Rubio.
+DTSTART:20261201T211500Z
+DTEND:20261201T221500Z
+END:VEVENT
+END:VCALENDAR

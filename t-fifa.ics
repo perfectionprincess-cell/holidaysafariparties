@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-fifa@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: FIFA Soccer Video Game Party
+DESCRIPTION:Frostwood PTA Holiday Auction party · 1st–5th · Teachers. With Coach Hudson.
+DTSTART:20261210T211500Z
+DTEND:20261210T224500Z
+END:VEVENT
+END:VCALENDAR

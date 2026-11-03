@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-g5-canes@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Raising Cane's Lunch
+DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade · Teachers. With Bost\, Homeyer\, Mallette\, Nelson\, Raley & White. End time not listed.
+DTSTART:20261204T190000Z
+DTEND:20261204T200000Z
+END:VEVENT
+END:VCALENDAR

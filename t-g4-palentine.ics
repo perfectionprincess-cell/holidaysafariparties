@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-g4-palentine@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Palentine Lunch with Your Teacher
+DESCRIPTION:Frostwood PTA Holiday Auction party · 4th Grade · Teachers. With Cullip\, Cupples\, Flamenco\, Herzog\, Miller & Oria. End time not listed.
+DTSTART:20270211T183000Z
+DTEND:20270211T193000Z
+END:VEVENT
+END:VCALENDAR

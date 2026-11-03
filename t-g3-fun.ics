@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-g3-fun@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Holiday Fun with Your Teacher
+DESCRIPTION:Frostwood PTA Holiday Auction party · 3rd Grade · Teachers. With Barker\, Cox\, Davis\, Galaviz\, Hackworth & Young. Pizza\, an edible craft & a winter scavenger hunt.
+DTSTART:20261203T210000Z
+DTEND:20261203T223000Z
+END:VEVENT
+END:VCALENDAR

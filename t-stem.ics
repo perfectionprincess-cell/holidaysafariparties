@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:t-stem@frostwood-party-safari
+DTSTAMP:20261102T220000Z
+SUMMARY:Frostwood: Active Lab / STEM Holiday Fun
+DESCRIPTION:Frostwood PTA Holiday Auction party · 3rd–5th · Teachers. With Mrs. Hogg & Ms. Leblanc. End time not listed.
+DTSTART:20261210T210000Z
+DTEND:20261210T220000Z
+END:VEVENT
+END:VCALENDAR
