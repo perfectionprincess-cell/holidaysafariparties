@@ -91,7 +91,7 @@ footer b{font:600 11px Poppins,sans-serif;letter-spacing:.2em;color:var(--rust);
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>
       <span id="allLabel">Add all parties</span></a>
       <a class="btn ghost" id="subLink" href="#">Subscribe (updates automatically)</a></div>
-    <p class="small" style="margin-top:8px">“Add all” opens a calendar file for iPhone, Mac &amp; Outlook. “Subscribe” keeps your calendar current if dates or times change.</p>
+    <p class="small" style="margin-top:8px">“Add all” covers parent-hosted parties only; add teacher parties one at a time with their buttons. It opens a calendar file for iPhone, Mac &amp; Outlook. “Subscribe” keeps your calendar current if dates or times change.</p>
       </div>
   <div id="list"></div>
   <footer><b>Frostwood Roars</b> · Parties with “Time TBA” are added as all-day events — check your invitation for times.</footer>
@@ -125,11 +125,12 @@ function render(){
     `<button class="f${k===cur?" on":""}" data-k="${k}" aria-pressed="${k===cur}">${l}</button>`).join("");
   const shown = EVENTS.filter(e => cur==="all" || e.tags.includes(cur));
   const label = FILTERS.find(f=>f[0]===cur)[2];
-  const dated = shown.filter(e=>e.ics).length;
+  const dated = shown.filter(e=>e.ics && !e.tags.includes("teacher")).length;
   const file = cur==="all" ? "frostwood-all-parties.ics" : `frostwood-${cur}.ics`;
   const all = document.getElementById("allLink");
   all.href = file;
-  document.getElementById("allLabel").textContent = cur==="all" ? `Add all ${dated} parties` : (dated>1 ? `Add all ${dated} ${label} parties` : `Add the ${label} party`);
+  const pp = cur==="adults"||cur==="family" ? "" : " parent";
+  document.getElementById("allLabel").textContent = cur==="all" ? `Add all ${dated} parent parties` : (dated>1 ? `Add all ${dated} ${label}${pp} parties` : `Add the ${label}${pp} party`);
   all.style.display = dated ? "" : "none";
   const sub = document.getElementById("subLink");
   sub.href = "webcal://" + location.host + location.pathname.replace(/[^/]*$/, "") + file;
