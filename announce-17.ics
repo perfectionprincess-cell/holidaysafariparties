@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:announce-17@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Morning Announcements (Elf on the Shelf & Holiday Countdown)
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. Thursday's winners read the morning announcements: Elf on the Shelf (Kinder or 1st grade) and the Holiday Countdown. Time to be announced.
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+END:VEVENT
+END:VCALENDAR
