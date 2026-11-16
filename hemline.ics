@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:hemline@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Hemline Private Shopping Party
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Sips\, light bites & a private shopping night (Hunter Bell\, Alice and Olivia\, Addison Bay\, Amanda Uprichard & more). Shoppers get 20% off all night.
+DTSTART:20261210T000000Z
+DTEND:20261210T030000Z
+LOCATION:Hemline
+END:VEVENT
+END:VCALENDAR
