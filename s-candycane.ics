@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-candycane@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Candy Cane Delivery
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. Candy canes delivered to your child (and a fellow Tiger) in their classroom.
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+END:VEVENT
+END:VCALENDAR

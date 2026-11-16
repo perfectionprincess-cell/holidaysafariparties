@@ -8,7 +8,7 @@ BEGIN:VEVENT
 UID:homes-tour@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Holiday Homes Tour & Progressive Dinner
-DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Host homes include the Bejars and Ortuzars. Bites at each stop. Time to be announced.
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 END:VEVENT
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 UID:g2-momsgame@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Class of 2030 Mom's Game Night
-DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Moms. Time to be announced.
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Moms. Play games to earn “money\,” then bid in the end-of-night auction. Time to be announced.
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 END:VEVENT
@@ -24,7 +24,7 @@ BEGIN:VEVENT
 UID:mahjong@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Mahjong Night at The Birdie
-DESCRIPTION:Frostwood PTA Holiday Auction party · Adults · tables of 4.
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults · tables of 4. Price is for one table of four players.
 DTSTART:20270115T000000Z
 DTEND:20270115T030000Z
 LOCATION:The Birdie
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 UID:lunar@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Fortune & Festivities: A Lunar New Year Celebration
-DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Time to be announced.
+DESCRIPTION:Frostwood PTA Holiday Auction party · Adults. Bring your better half or come solo. Food\, drinks & game tables. Time to be announced.
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 END:VEVENT

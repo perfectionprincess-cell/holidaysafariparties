@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-fieldday@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Field Day: King & Queen + VIP Parking
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. Kings & Queens of Field Day reign for the day! VIP parking is in the Gessner or Memorial Lot.
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+END:VEVENT
+END:VCALENDAR

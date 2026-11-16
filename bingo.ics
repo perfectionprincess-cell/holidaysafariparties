@@ -8,7 +8,7 @@ BEGIN:VEVENT
 UID:bingo@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Holiday Family Bingo
-DESCRIPTION:Frostwood PTA Holiday Auction party · All Families. Time to be announced.
+DESCRIPTION:Frostwood PTA Holiday Auction party · All Families. Buy a card for each family member. Cash prizes\, holiday snacks\, and maybe a visit from Santa. Time to be announced.
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 END:VEVENT

@@ -8,7 +8,7 @@ BEGIN:VEVENT
 UID:g5-kickball@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Mothers vs. Sons Kickball Game
-DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade. Time to be announced.
+DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade. One ticket covers both mom and son. Hot chocolate & a festive snack after the game. Time to be announced.
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 END:VEVENT
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 UID:g5-climb@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: She Believed She Could Climb\, So She Did
-DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade Girls.
+DESCRIPTION:Frostwood PTA Holiday Auction party · 5th Grade Girls. Two-hour indoor rock-climbing party. First-time climbers welcome.
 DTSTART:20270110T200000Z
 DTEND:20270110T220000Z
 LOCATION:Momentum Katy

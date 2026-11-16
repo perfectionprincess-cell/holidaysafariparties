@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-100days@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: 100 Days of School Parade: Grand Marshal & VIP Parking
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. The Grand Marshal leads the parade. VIP parking winners get a reserved spot for the parade.
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+END:VEVENT
+END:VCALENDAR

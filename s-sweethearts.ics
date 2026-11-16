@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-sweethearts@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Box of Sweethearts
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. Sweethearts delivered to your child and their friends in the classroom for Valentine's Day.
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+END:VEVENT
+END:VCALENDAR

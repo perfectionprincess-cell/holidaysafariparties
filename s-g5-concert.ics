@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-g5-concert@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: 5th Grade Holiday Concert: VIP Seats & Parking
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. VIP seat winners get 4 seats up front\; VIP parking winners get a reserved spot for the concert.
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+END:VEVENT
+END:VCALENDAR

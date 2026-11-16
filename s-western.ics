@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-western@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Western Day: Reserved Seats & VIP Parking
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. Reserved-seat winners get TWO front-row seats (check which classes your package covers). VIP parking is in the Gessner or Memorial Lot.
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+END:VEVENT
+END:VCALENDAR

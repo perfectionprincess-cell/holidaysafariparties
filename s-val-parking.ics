@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frostwood PTA//Party Safari//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frostwood Party Safari
+BEGIN:VEVENT
+UID:s-val-parking@frostwood-party-safari
+DTSTAMP:20261116T220000Z
+SUMMARY:Frostwood: Valentine's Party VIP Parking
+DESCRIPTION:Frostwood PTA Holiday Auction · School-day spotlight. Reserved spot in the Gessner Lot or Memorial Lot (check which you won) for classroom Valentine's Party day.
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+END:VEVENT
+END:VCALENDAR

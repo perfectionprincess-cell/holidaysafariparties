@@ -8,7 +8,7 @@ BEGIN:VEVENT
 UID:g2-caroling@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Cocoa & Caroling
-DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Girls.
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Girls. Karaoke\, caroling\, cocoa & holiday treats.
 DTSTART:20261213T180000Z
 DTEND:20261213T200000Z
 LOCATION:Spotlight Karaoke
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 UID:g2-momsgame@frostwood-party-safari
 DTSTAMP:20261102T220000Z
 SUMMARY:Frostwood: Class of 2030 Mom's Game Night
-DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Moms. Time to be announced.
+DESCRIPTION:Frostwood PTA Holiday Auction party · 2nd Grade Moms. Play games to earn “money\,” then bid in the end-of-night auction. Time to be announced.
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 END:VEVENT
