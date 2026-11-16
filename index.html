@@ -110,9 +110,8 @@ footer b{font:600 11px Poppins,sans-serif;letter-spacing:.2em;color:var(--rust);
     <div class="legend"><span class="chip kid">Kid parties</span><span class="chip adult">Adult parties</span><span class="chip family">Whole family</span><span class="chip teacher">Teacher parties</span><span class="chip school">School-day spotlights</span></div>
     <div class="addall"><a class="btn primary" id="allLink" href="frostwood-all-parties.ics">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>
-      <span id="allLabel">Add all parties</span></a>
-      <a class="btn ghost" id="subLink" href="#">Subscribe (updates automatically)</a></div>
-    <p class="small" style="margin-top:8px">“Add all” covers parent-hosted parties only; add teacher parties one at a time with their buttons. It opens a calendar file for iPhone, Mac &amp; Outlook. “Subscribe” keeps your calendar current if dates or times change.</p>
+      <span id="allLabel">Add all parties</span></a></div>
+    <p class="small" style="margin-top:8px">“Add all” covers parent-hosted parties only; add teacher parties one at a time with their buttons. It opens a calendar file for iPhone, Mac &amp; Outlook.</p>
       </div>
   <div id="nextup"></div>
   <div id="list"></div>
@@ -172,9 +171,6 @@ function render(){
   const pp = cur==="adults"||cur==="family" ? "" : " parent";
   document.getElementById("allLabel").textContent = cur==="all" ? `Add all ${dated} parent parties` : (dated>1 ? `Add all ${dated} ${label}${pp} parties` : `Add the ${label}${pp} party`);
   all.style.display = dated ? "" : "none";
-  const sub = document.getElementById("subLink");
-  sub.href = "webcal://" + location.host + location.pathname.replace(/[^/]*$/, "") + file;
-  sub.style.display = (dated && location.protocol.startsWith("http")) ? "" : "none";
   document.getElementById("nextup").innerHTML = words.length ? "" : nextUp(shown);
   let html = "";
   for (const m of Object.keys(SUBS)) {
